@@ -15,18 +15,7 @@ public class SecondLesson {
 
         System.out.println((int)c1);
         System.out.println(c2);
-        System.out.println((char)('a' + 2));
-
-
-        int a = 1;
-        System.out.println(++a);
-        System.out.println(a++);
-        System.out.println(15 / 2);
-        System.out.println(15 != 15);
-boolean b = 15 == 15;
-        System.out.println(b);
-
-
+        System.out.println((char)('a' + 2
 
     }
 }
