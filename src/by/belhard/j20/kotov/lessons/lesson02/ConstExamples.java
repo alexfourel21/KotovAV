@@ -1,7 +1,7 @@
-package by.belhard.j20.kotov.lessons.lesson02;
+/*package by.belhard.j20.kotov.lessons.lesson02;
 
 public class ConstExamples {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         int q = 5;
         int w = 80;
         double e  = 3.5;
@@ -17,3 +17,4 @@ public class ConstExamples {
     }
 
 }
+*/
