@@ -1,43 +1,43 @@
 package by.belhard.j20.kotov.lessons.HW.ThirdTaskOneAddOne;
 
-//public class ArraysHTFirstDopOne {
-    /*Вывести в строку через пробел все числа от 1 до 100 (включая обе границы),
-которые делятся без остатка на 3 и на 7 одновременно.
- *доп1. Вывести в строку через пробел все числа от 1 до 100,
- которые делятся без остатка либо на 5, либо на 7, но не одновременно на 5 и на 7.
- *доп2.Вывести числа из диапазонов [10; 19], [30; 39], [50; 59], [70; 79], [90; 99],
- которые делятся либо на 5, либо на 7, но не одновременно на 5 ина 7.*/
+public class ArraysHTFirstDopOne {
 
-   /* int[] array = new int[100];
+    public static void main(String[] args) {
 
-        for (int i = 0; i < array.length; i++) {
+    /*Вывести в строку через пробел все числа от 1 до 100,
+ которые делятся без остатка либо на 5, либо на 7, но не одновременно на 5 и на 7.*/
 
-        array[i] = i + 1;  // присваивае 0 значению Массива 1, 99му  значение 100
+        int[] arraydopone = new int[100];
+
+        for (int i = 0; i < arraydopone.length; i++) {
+
+            arraydopone[i] = i + 1;  // присваивает 0 значению Массива 1, 99му  значение 100
 
 
-        if (array[i] % 5 == 0) {
+            if (arraydopone[i] % 35 != 0) { // проверяем главное условие - делится не одновременно на 5 и на 7
 
-            if (array[i] % 7 != 0) {
+                if (arraydopone[i] % 5 == 0) {
 
-                if (array[i] % 35 != 0) {
+                    if (arraydopone[i] % 7 != 0) {
 
-                    System.out.print(array[i] + " ");
+                        System.out.print(arraydopone[i] + " ");
+                    }
                 }
             }
-        }
 
-        if (array[i] % 7 == 0) {
+            if (arraydopone[i] % 7 == 0) {
 
-            if (array[i] % 5 != 0) {
+                if (arraydopone[i] % 5 != 0) {
 
-                if (array[i] % 35 != 0) {
+                    if (arraydopone[i] % 35 != 0) {
 
-                    System.out.print(array[i] + " ");
+                        System.out.print(arraydopone[i] + " ");
 
+                    }
                 }
             }
         }
     }
 }
 
-*/
+

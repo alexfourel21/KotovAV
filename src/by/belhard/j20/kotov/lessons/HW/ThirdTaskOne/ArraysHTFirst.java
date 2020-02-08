@@ -12,7 +12,7 @@ public class ArraysHTFirst {
 
         for (int i = 0; i < array.length; i++) {
 
-            array[i] = i + 1;  // присваивае 0 значению ассива 1, 99му  значение 100
+            array[i] = i + 1;  // присваивает 0 значению массива 1, 99му  значение 100
 
             if (array[i] % 21 == 0) {
 
@@ -24,19 +24,3 @@ public class ArraysHTFirst {
     }
 }
 
-
-
-
-     /*  public class ArraysExample {
-
-    public static void main(String[] args) {
-
-        int[] array = new int[5];
-
-
-
-        for (int i = 0; i < array.length; i++) {
-        array[i] = i * 2;
-        }
-
-        System.out.println("123");*/
