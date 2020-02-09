@@ -15,6 +15,7 @@ public class ThirdHWTaskTwoDop {
         for (int b = 0; b < arrayTwo.length; b++) { // пока не понял как это работает!!!!
 
             int min = arrayTwo[b];
+
             int min_b = b;
 
             for (int j = b + 1; j < arrayTwo.length; j++) {
