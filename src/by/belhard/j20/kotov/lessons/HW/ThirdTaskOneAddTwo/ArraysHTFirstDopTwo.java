@@ -1,9 +1,7 @@
-package by.belhard.j20.kotov.lessons.HW.ThirdTaskOneAddTwo;
-
-/*public class ArraysHTFirstDopTwo {
+package by.belhard.j20.kotov.lessons.HW.ThirdTaskOneAddTwo;public class ArraysHTFirstDopTwo {
 
 
-  public static void main(String[] args) {
+  /*public static void main(String[] args) {
 
     Вывести числа из диапазонов [10; 19], [30; 39], [50; 59], [70; 79], [90; 99],
     которые делятся либо на 5, либо на 7, но не одновременно на 5 ина 7.

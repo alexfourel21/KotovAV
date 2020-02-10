@@ -8,7 +8,7 @@ public class ArraysHTFirst {
 которые делятся без остатка на 3 и на 7 одновременно.
  */
 
-        int[] array = new int[100];
+        /*int[] array = new int[100];
 
         for (int i = 0; i < array.length; i++) {
 
@@ -23,4 +23,3 @@ public class ArraysHTFirst {
         }
     }
 }
-

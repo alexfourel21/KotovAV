@@ -47,7 +47,7 @@ public class ArraysThree {
 
 
 
-                System.out.println();
+             //   System.out.println();
 
         /* for (int[] innerArray : multiTable) {
             for (int i : innerArray) {
